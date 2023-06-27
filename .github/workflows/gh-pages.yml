@@ -22,7 +22,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
-        path: ./docs/_site
+        path: ./docfx_project/_site
 
   deploy-docs:
     needs: build-docs
